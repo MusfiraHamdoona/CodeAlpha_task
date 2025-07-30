@@ -9,7 +9,7 @@ img{
     opacity: 0.8;
     }
 .container{
-    position:fixed;
+    position:absolute;
     z-index:2;
     top:6rem;
     right:29rem;
