@@ -93,11 +93,11 @@ img{
    .container{
     position:absolute; 
     z-index:2;
-    top:2rem;
-    right:5rem;
+    top:3rem;
+    right:3rem;
     border:2px solid rgb(248, 245, 245);
     border-radius:40%;
-    padding:50px 70px;
+    padding:50px 50px;
     background-color:rgb(248, 245, 245,0.2);
     box-shadow:8px 8px 10px rgb(32, 32, 32);
     
