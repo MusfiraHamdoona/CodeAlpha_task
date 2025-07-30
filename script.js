@@ -1,10 +1,11 @@
 let birthDate=document.getElementById("date")
 let birthMonth=document.getElementById("month")
 let birthYear=document.getElementById("year")
-let button=document.querySelector("button")
+let calcButton=document.querySelector(".calc")
+let clear=document.querySelector(".clr")
 let result=document.querySelector("#result")
 
-    button.addEventListener("click",function(){
+    calcButton.addEventListener("click",function(){
        result.innerHTML=""
       let date=new Date()
       let currentDate=date.getDate()
@@ -38,4 +39,11 @@ let result=document.querySelector("#result")
     else{
     alert("Enter all inputs")
     }
+})
+clear.addEventListener("click",function(){
+  result.innerHTML=""
+  birthDate.value="" 
+  birthMonth.value=""
+  birthYear.value=""
+
 })
