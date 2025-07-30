@@ -50,6 +50,7 @@ img{
     }
     section{
         display:flex;
+        justify-items:center;
     }
     label{
         font-size:20px;
